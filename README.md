@@ -16,10 +16,6 @@ This project provides a simple, extensible script to:
 4.  Calculate an "induction score" for each head.
 5.  Generate a heatmap visualizing which heads are responsible for this behavior.
 
-### Example Visualization
-
-This heatmap shows the induction score for every attention head in `gpt2-small`. Brighter cells indicate a stronger induction capability. We can clearly see strong induction heads appearing in the middle layers (e.g., Layer 5, Head 5 and Layer 6, Head 9), which aligns with published research.
-
 ## 🧠 The "Why": Mechanistic Interpretability
 
 Understanding circuits like induction heads is a core goal of Mechanistic Interpretability (MI). Instead of treating models as black boxes, we aim to reverse-engineer the specific algorithms they have learned. This project serves as a "Hello, World!" for MI, demonstrating a concrete, well-understood mechanism inside a real-world model.
